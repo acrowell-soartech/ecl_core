@@ -63,4 +63,5 @@ ament_export_dependencies(
     ecl_concepts
     ecl_mpl
 )
+ament_export_include_directories(include)
 ament_package()

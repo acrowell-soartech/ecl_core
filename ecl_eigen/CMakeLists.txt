@@ -77,4 +77,5 @@ add_subdirectory(license)
 
 ament_export_interfaces(${PROJECT_NAME})
 ament_export_dependencies(Eigen3)
+ament_export_include_directories(include ${EIGEN3_INCLUDE_DIRS})
 ament_package()

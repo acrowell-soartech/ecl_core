@@ -39,4 +39,5 @@ ament_export_dependencies(
     ecl_converters
     ecl_exceptions
 )
+ament_export_include_directories(include)
 ament_package()

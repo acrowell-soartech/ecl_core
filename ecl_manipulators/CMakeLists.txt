@@ -50,5 +50,6 @@ ament_export_dependencies(
     ecl_formatters
     ecl_geometry
 )
+ament_export_include_directories(include)
 ament_package()
 

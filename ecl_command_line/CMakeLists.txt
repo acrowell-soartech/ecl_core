@@ -50,4 +50,5 @@ add_subdirectory(src)
 ##############################################################################
 
 ament_export_interfaces(${PROJECT_NAME})
+ament_export_include_directories(include)
 ament_package()

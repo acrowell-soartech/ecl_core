@@ -46,4 +46,5 @@ ament_export_dependencies(
     ecl_time_lite
     ecl_time
 )
+ament_export_include_directories(include)
 ament_package()
